@@ -14,6 +14,9 @@
 
   <!--Debug refs-->
 	<ItemGroup>
+		<Reference Include="CLIHelper">
+			<HintPath>..\..\cli-helper\CLIHelper\bin\Debug\net6.0\CLIHelper.dll</HintPath>
+		</Reference>
 		<Reference Include="Config.Wrapper">
 			<HintPath>..\..\config\Config.Wrapper\bin\Debug\net6.0\Config.Wrapper.dll</HintPath>
 		</Reference>
@@ -21,6 +24,9 @@
 	
 	<!--Realese refs-->
   	<!--<ItemGroup>
+	  	<Reference Include="CLIHelper">
+			<HintPath>..\..\..\Build\cli-helper\CLIHelper\CLIHelper.dll</HintPath>
+		</Reference>
 		<Reference Include="Config.Wrapper">
 			<HintPath>..\..\..\Build\config\Config.Wrapper\Config.Wrapper.dll</HintPath>
 		</Reference>
