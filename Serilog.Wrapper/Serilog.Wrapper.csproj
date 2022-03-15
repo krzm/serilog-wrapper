@@ -10,25 +10,32 @@
 	  <PackageReference Include="Serilog" Version="2.10.0" />
 	  <PackageReference Include="Serilog.Sinks.Console" Version="4.0.1" />
 	  <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+	  <PackageReference Include="Unity" Version="5.11.10" />
 	</ItemGroup> 
 
   <!--Debug refs-->
 	<ItemGroup>
+		<Reference Include="DIHelper">
+			<HintPath>..\..\di-helper\DIHelper\bin\Debug\net6.0\DIHelper.dll</HintPath>
+		</Reference>
 		<Reference Include="CLIHelper">
 			<HintPath>..\..\cli-helper\CLIHelper\bin\Debug\net6.0\CLIHelper.dll</HintPath>
 		</Reference>
 		<Reference Include="Config.Wrapper">
-			<HintPath>..\..\config\Config.Wrapper\bin\Debug\net6.0\Config.Wrapper.dll</HintPath>
+			<HintPath>..\..\config-wrapper\Config.Wrapper\bin\Debug\net6.0\Config.Wrapper.dll</HintPath>
 		</Reference>
 	</ItemGroup>
 	
 	<!--Realese refs-->
   	<!--<ItemGroup>
+	  	<Reference Include="DIHelper">
+			<HintPath>..\..\..\Build\di-helper\DIHelper\DIHelper.dll</HintPath>
+		</Reference>
 	  	<Reference Include="CLIHelper">
 			<HintPath>..\..\..\Build\cli-helper\CLIHelper\CLIHelper.dll</HintPath>
 		</Reference>
 		<Reference Include="Config.Wrapper">
-			<HintPath>..\..\..\Build\config\Config.Wrapper\Config.Wrapper.dll</HintPath>
+			<HintPath>..\..\..\Build\config-wrapper\Config.Wrapper\Config.Wrapper.dll</HintPath>
 		</Reference>
 	</ItemGroup>-->
 </Project>
