@@ -13,8 +13,8 @@
 	  <PackageReference Include="Unity" Version="5.11.10" />
 	</ItemGroup> 
 
-  <!--Debug refs-->
-	<ItemGroup>
+  	<!--Debug refs-->
+	<!-- <ItemGroup>
 		<Reference Include="DIHelper">
 			<HintPath>..\..\di-helper\DIHelper\bin\Debug\net6.0\DIHelper.dll</HintPath>
 		</Reference>
@@ -24,18 +24,18 @@
 		<Reference Include="Config.Wrapper">
 			<HintPath>..\..\config-wrapper\Config.Wrapper\bin\Debug\net6.0\Config.Wrapper.dll</HintPath>
 		</Reference>
-	</ItemGroup>
+	</ItemGroup> -->
 	
 	<!--Realese refs-->
-  	<!--<ItemGroup>
-	  	<Reference Include="DIHelper">
+  	<ItemGroup>
+		<Reference Include="DIHelper">
 			<HintPath>..\..\..\Build\di-helper\DIHelper\DIHelper.dll</HintPath>
 		</Reference>
-	  	<Reference Include="CLIHelper">
+		<Reference Include="CLIHelper">
 			<HintPath>..\..\..\Build\cli-helper\CLIHelper\CLIHelper.dll</HintPath>
 		</Reference>
 		<Reference Include="Config.Wrapper">
 			<HintPath>..\..\..\Build\config-wrapper\Config.Wrapper\Config.Wrapper.dll</HintPath>
 		</Reference>
-	</ItemGroup>-->
+	</ItemGroup>
 </Project>
