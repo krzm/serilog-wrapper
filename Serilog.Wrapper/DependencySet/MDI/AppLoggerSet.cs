@@ -3,10 +3,10 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace Serilog.Wrapper.MDI;
 
-public abstract class AppLoggerSet 
+public class AppLoggerSet 
 	: MDIDependencySet
 {
-	protected AppLoggerSet(
+	public AppLoggerSet(
 		IServiceCollection container)
 		: base(container)
 	{
