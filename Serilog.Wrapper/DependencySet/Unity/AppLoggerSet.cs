@@ -1,7 +1,7 @@
 using DIHelper.Unity;
 using Unity;
 
-namespace Serilog.Wrapper;
+namespace Serilog.Wrapper.Unity;
 
 public class AppLoggerSet 
     : UnityDependencySet
