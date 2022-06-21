@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.Globalization;
-using Serilog.Wrapper;
+﻿using Serilog.Wrapper;
 
 ISerilogBuilder logBuilder = new SerilogBuilder();
 var log = logBuilder.BuildLog().ForContext<Program>();
